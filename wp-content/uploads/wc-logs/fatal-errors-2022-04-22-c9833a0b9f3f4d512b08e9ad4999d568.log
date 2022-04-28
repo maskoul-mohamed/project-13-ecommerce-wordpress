@@ -1,0 +1,74 @@
+2022-04-22T09:40:10+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php:399
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(373): Elementor\Core\App\Modules\ImportExport\Module->get_elementor_page_url(false)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(425): Elementor\Core\App\Modules\ImportExport\Module->get_elementor_home_page_url()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(63): Elementor\Core\App\Modules\ImportExport\Module->get_config_data()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\base-object.php(142): Elementor\Core\App\Modules\ImportExport\Module->get_init_settings()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\app.php(36): Elementor\Core\Base\App->get_components_config()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\app.php(231): Elementor\Core\Base\App->print_config()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\app.php(77): Elementor\Core\App\App->enqueue_assets()
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): Elementor\Core\App\App->admin_init('')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php on line 399
+
+2022-04-22T09:40:39+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php:399
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(373): Elementor\Core\App\Modules\ImportExport\Module->get_elementor_page_url(false)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(425): Elementor\Core\App\Modules\ImportExport\Module->get_elementor_home_page_url()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(63): Elementor\Core\App\Modules\ImportExport\Module->get_config_data()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\base-object.php(142): Elementor\Core\App\Modules\ImportExport\Module->get_init_settings()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\app.php(36): Elementor\Core\Base\App->get_components_config()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\app.php(231): Elementor\Core\Base\App->print_config()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\app.php(77): Elementor\Core\App\App->enqueue_assets()
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): Elementor\Core\App\App->admin_init('')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php on line 399
+
+2022-04-22T09:41:13+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php:399
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(373): Elementor\Core\App\Modules\ImportExport\Module->get_elementor_page_url(false)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(425): Elementor\Core\App\Modules\ImportExport\Module->get_elementor_home_page_url()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(63): Elementor\Core\App\Modules\ImportExport\Module->get_config_data()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\base-object.php(142): Elementor\Core\App\Modules\ImportExport\Module->get_init_settings()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\app.php(36): Elementor\Core\Base\App->get_components_config()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\app.php(231): Elementor\Core\Base\App->print_config()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\app.php(77): Elementor\Core\App\App->enqueue_assets()
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): Elementor\Core\App\App->admin_init('')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php on line 399
+
+2022-04-22T09:44:21+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php:399
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(373): Elementor\Core\App\Modules\ImportExport\Module->get_elementor_page_url(false)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(425): Elementor\Core\App\Modules\ImportExport\Module->get_elementor_home_page_url()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php(63): Elementor\Core\App\Modules\ImportExport\Module->get_config_data()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\base-object.php(142): Elementor\Core\App\Modules\ImportExport\Module->get_init_settings()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\app.php(36): Elementor\Core\Base\App->get_components_config()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\app.php(231): Elementor\Core\Base\App->print_config()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\app.php(77): Elementor\Core\App\App->enqueue_assets()
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): Elementor\Core\App\App->admin_init('')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\app\modules\import-export\module.php on line 399
+
+2022-04-22T09:56:27+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 20480 bytes) in C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php on line 885
+
